@@ -11,11 +11,11 @@ class Game {
     this.intervalId = undefined;
     this.fps = 1000 / 60;
 
-    this.background = new Background(this.ctx, '/assets/img/backgrounds/bg-1.webp');
+    this.background = new Background(this.ctx, 'assets/img/backgrounds/bg-1.webp');
     this.floor = this.canvas.height - 42;
-    this.square = new Square(this.ctx, 10, this.floor - SQUARE_H, this.floor, '/assets/img/cubes/player.png');
+    this.square = new Square(this.ctx, 10, this.floor - SQUARE_H, this.floor, 'assets/img/cubes/player.png');
     this.obstacles = [
-      new Square(this.ctx, 200, this.floor - SQUARE_H, this.floor, '/assets/img/cubes/enemy.png')
+      new Square(this.ctx, 200, this.floor - SQUARE_H, this.floor, 'assets/img/cubes/enemy.png')
     ]
   }
 
