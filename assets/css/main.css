@@ -1,0 +1,11 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow: hidden;
+  background-image: url('/assets/img/backgrounds/bg-game.png');
+  background-size: cover;
+}
+
+
+#game-canvas {
+  border: 5px solid black;
+}
